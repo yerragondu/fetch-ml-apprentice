@@ -1,0 +1,9 @@
+trigger:
+  - nikhil  # Change this if your branch is named differently
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - script: echo "✅ Azure DevOps pipeline running successfully!"
+    displayName: "Print Hello"
