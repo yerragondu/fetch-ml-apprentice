@@ -2,7 +2,7 @@ trigger:
   - nikhil  # Change this if your branch is named differently
 
 pool:
-  vmImage: 'ubuntu-latest'
+  name: linux-agent
 
 steps:
   - script: echo "✅ Azure DevOps pipeline running successfully!"
